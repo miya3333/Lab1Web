@@ -4,7 +4,6 @@ Aldi Hermansyah - 312310200 - Ti.23.A2
 
 Project Link: [Praktikum 1](https://miya3333.github.io/Lab1Web/)
 
-
 ### Soal & Jawaban:
 1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
    > Jawaban:
