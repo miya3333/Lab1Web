@@ -46,3 +46,5 @@ Project Link: [Praktikum 1](https://miya3333.github.io/Lab1Web/)
    > `_parent` digunakan untuk frame induk jika ada, jika tidak sama seperti tag ( `_self` ).
    > 
    > <img src="file/jawaban 5 parent.png" alt="jawaban 5 parent">
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
