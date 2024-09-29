@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman 2 | Penjelasan Soal</title>
+    <link rel="icon" href="logo upb.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav>
+        <a href="lab1_tag_dasar.html">Dasar HTML</a>
+        <a href="lab1_halaman2.html">Halaman 2</a>
+        <a href="http://www.google.com">Halaman web Eksternal Google</a>
+    </nav>
+    <hr>
+
+    <h3>Soal:</h3>
+    <ol type="none">
+        <li>
+            Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
+        </li>
+        <li>
+            Apa perbedaan dari tag <code><<span class="span1">p</span>></code> dengan tag <code><<span class="span1">br</span>></code>, berikan penjelasannya!
+        </li>
+        <li>
+            Apa perbedaan atribut <code><span class="span1">title</span></code> dan <code><span class="span1">alt</span></code> pada tag <code><<span class="span1">img</span>></code>, berikan penjelasannya!
+        </li>
+        <li>
+            Untuk mengatur ukuran gambar, digunakan atribut <code><span class="span1">width</span></code> dan <code><span class="span1">height</span></code>. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
+        </li>
+        <li>
+            Pada <code><span class="span2">link</span></code> tambahkan atribut <code><span class="span2">target</span></code> dengan nilai atribut bervariasi <code>( <span class="span2 span3">_blank, _self, _top, _parent</span> )</code>, apa yang terjadi pada masing-masing nilai antribut tersebut?
+        </li>
+    </ol>
+    
+    <h3>Jawab:</h3>
+    <ol>
+        <li>
+            Pada link <a href="lab1_tag_dasar.html">Dasar HTML</a>, di paragraf pertama saya menggunakan <code><<span class="span1">p</span> <span class="span2">align</span>="<span class="span4">center</span>"></code> untuk membuat paragraf berada di tengah. Jika saya ganti untuk memasukkan kode <code><<span class="span1">p</span> <span class="span2">align</span>="<span class="span4">enter</span>"></code>, maka secara default baris akan kembali ke sebelah kiri.
+            <p class="span3">
+                Error tidak muncul, tetapi penulisan kode yang salah akan langsung kembali ke keadaan default.
+            </p>
+
+            <h4>paragraf dengan center</h4>
+            <p align="center">
+                Kami sedang belajar <mark>HTML dasar</mark>, pada matakuliah <b>Pemrograman Web</b> di Prodi <i>Teknik Informatika</i> <u>Universitas Pelita Bangsa</u>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.
+            </p>
+            <h4>paragraf yang diganti dengan enter</h4>
+            <p align="enter">
+                Kami sedang belajar <mark>HTML dasar</mark>, pada matakuliah <b>Pemrograman Web</b> di Prodi <i>Teknik Informatika</i> <u>Universitas Pelita Bangsa</u>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.
+            </p>
+        </li>
+        <li>
+            Tag <code><<span class="span1">p</span>></code> digunakan untuk membuat sebuah paragraf.
+            <span class="span3">
+                contoh:
+                <p>Ini adalah paragraf pertama.</p>
+                <p>Ini adalah paragraf kedua.</p>
+            </span>
+            <p>
+                Tag <code><<span class="span1">br</span>></code> digunakan untuk memindahkan teks ke baris berikutnya, tidak bisa untuk membuat paragraf baru.
+            
+                <span class="span3">
+                    contoh: <br>
+                    Alamat saya adalah:<br> Jl. Telaga Warna<br> Kabupaten Bekasi
+                </span>
+            </p>
+        </li>
+        <li>
+            Atribut <code><span class="span1">title</span></code> berfungsi untuk memberikan informasi detail terkait gambar tersebut, dengan cara mouse berada di atas gambar tersebut.<br> <span class="span3">Coba menggunakan gambar dibawah ini:</span>
+            <br>
+            <img src="logo upb.png" alt="logo upb" title="Ini adalah logo upb" width="200px">
+
+            <p>
+                Atribut <code><span class="span1">alt</span></code> berfungsi untuk menyediakan teks alternatif pengganti gambar jika halaman web sedang loading atau tidak dapat dimuat. <br>
+                <span class="span3">contoh:</span> <br>
+                <img src="logo.png" alt="logo upb" title="Ini adalah logo upb" width="200px">
+            </p>
+        </li>
+        <li>
+            Lihat contoh dibawah ini: <br>
+            <p class="span3">
+                Ini hanya menggunakan width: <br>
+                <img src="logo upb.png" alt="logo upb" width="100px" title="logo dengan width 100px"> <br><br>
+                Ini hanya menggunakan height: <br>
+                <img src="logo upb.png" alt="logo upb" height="100px" title="logo dengan height 100px"> <br><br>
+                Ini menggunakan keduanya: <br>
+                <img src="logo upb.png" alt="logo upb" width="50px" height="100px" title="logo dengan width 50px dan height 100px"> <br>
+            </p>
+            <p>
+                Dari yang ditampilkan diatas. Jika hanya menggunakan salah satu dari <code><span class="span1">width</span></code> dan <code><span class="span1">height</span></code>, maka ukuran foto akan seimbang.
+                Tetapi berubah drastis ketika menggunakan keduanya, dengan nilai <code><span class="span2">width</span></code>="<code><span class="span4">50px</span></code>" & <code><span class="span2">height</span></code>="<code><span class="span4">100px</span></code>.
+            </p>
+        </li>
+        <li>
+            <a href="pageblank.html" target="_blank">Target Blank</a> digunakan untuk membuka link di tab baru.
+            <br><br>
+            <a href="pageself.html" target="_self">Target Self</a> digunakan untuk membuka link di tab yang sama atau secara dafault berada di tab yang sama.
+            <br><br>
+            <a href="pagetop.html" target="_top">Target Top</a> digunakan untuk mengganti semua frame di tab utama browser.
+            <br><br>
+            <a href="pageparent.html" target="_parent">Target Parent</a> digunakan untuk frame induk jika ada, jika tidak sama seperti tag ( <span class="span2 span3">_self</span> )</code>
+        </li>
+    </ol>
+
+    <br><br><br>
+    <a href="../index.html" class="back">Back to Index</a>
+    <br><br><br>
+
+    <footer>
+        Copyright &copy2024 All rights reserved | By Aldi Hermansyah
+    </footer>
+</body>
+</html>

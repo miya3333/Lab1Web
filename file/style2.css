@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.span1 {color: red;}
+.span2 {color: orange;}
+.span3 {font-style: italic;}
+.span4 {color: green;}
+.span5 {font-weight: bold;}
+
+.back {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: #181818;
+}
