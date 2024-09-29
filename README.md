@@ -9,12 +9,12 @@ Project Link: [Praktikum 1](https://miya3333.github.io/Lab1Web/)
    > Jawaban:
    > 
    > <img src="file/jawaban 1.png" alt="jawaban 1">
-2. Apa perbedaan dari tag `p` dengan tag `br`, berikan penjelasannya!
+2. Apa perbedaan dari tag `<p>` dengan tag `<br>`, berikan penjelasannya!
    > Jawaban:
    > 
    > <img src="file/jawaban 2.png" alt="jawaban 2">
 
-3. Apa perbedaan atribut `title` dan `alt` pada tag `img`, berikan penjelasannya!
+3. Apa perbedaan atribut `title` dan `alt` pada tag `<img>`, berikan penjelasannya!
    > Jawaban:
    > 
    > <img src="file/jawaban 3.png" alt="jawaban 3">
