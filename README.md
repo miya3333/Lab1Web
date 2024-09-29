@@ -47,4 +47,4 @@ Project Link: [Praktikum 1](https://miya3333.github.io/Lab1Web/)
    > 
    > <img src="file/jawaban 5 parent.png" alt="jawaban 5 parent">
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
